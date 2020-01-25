@@ -97,9 +97,9 @@ var layer_list = [
 			{
 'image': flores,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Flores.png',
-'z_index': -0.3,
+'z_index': -0.2,
 'position': {x: 0, y: 0},
-'blend': 'null',
+'blend': 'screen',
 'opacity': 1
 },
 {
