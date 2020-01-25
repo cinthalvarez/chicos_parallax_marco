@@ -20,6 +20,7 @@ var hojas_arriba_sombra = new Image();
 var hojas_arriba = new Image();
 var luna = new Image();
 var personajes = new Image();
+var flores = new Image();
 var marco = new Image();
 var hojas_abajo_sombra = new Image();
 var hojas_abajo = new Image();
@@ -88,6 +89,14 @@ var layer_list = [
 	{
 'image': personajes,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Personajes.png',
+'z_index': -0.5,
+'position': {x: 0, y: 0},
+'blend': 'null',
+'opacity': 1
+},
+		{
+'image': flores,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Flores.png',
 'z_index': -0.5,
 'position': {x: 0, y: 0},
 'blend': 'null',
