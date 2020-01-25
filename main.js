@@ -87,7 +87,7 @@ var layer_list = [
 	{
 'image': personajes,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Personajes.png',
-'z_index': -0,5,
+'z_index': -0.5,
 'position': {x: 0, y: 0},
 'blend': 'null',
 'opacity': 1
