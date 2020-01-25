@@ -54,7 +54,7 @@ var layer_list = [
 },
 {
 'image': nubes,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/nubes.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Nubes.png',
 'z_index': -1.5,
 'position': {x: 0, y: 0},
 'blend': 'multiply',
@@ -62,7 +62,7 @@ var layer_list = [
 },
 {
 'image': hojas_arriba_sombra,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_arriba_sombra.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Hojas_arriba_sombra.png',
 'z_index': -1,
 'position': {x: 0, y: 0},
 'blend': null,
@@ -70,15 +70,31 @@ var layer_list = [
 },
 {
 'image': hojas_arriba,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_arriba.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Hojas_arriba.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 	},
+		{
+'image': luna,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Luna.png',
+'z_index': 0,
+'position': {x: 0, y: 0},
+'blend': 'multiply',
+'opacity': 1
+},
+	{
+'image': personajes,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Personajes.png',
+'z_index': 0,
+'position': {x: 0, y: 0},
+'blend': 'multiply',
+'opacity': 1
+},
 {
 'image': marco,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/marco.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Marco.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': 'multiply',
@@ -87,7 +103,7 @@ var layer_list = [
 
 {
 'image': hojas_abajo_sombra,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_abajo_sombra.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Hojas_abajo_sombra.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': null,
@@ -95,7 +111,7 @@ var layer_list = [
 },
 {
 'image': hojas_abajo,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_abajo.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Hojas_abajo.png',
 'z_index': 0.5,
 'position': {x: 0, y: 0},
 'blend': 'multiply',
@@ -112,7 +128,7 @@ var layer_list = [
 },
 {
 'image': firma,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/firma.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Firma.png',
 'z_index': 2,
 'position': {x: 0, y: 0},
 'blend': null,
