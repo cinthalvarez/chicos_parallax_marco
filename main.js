@@ -31,7 +31,7 @@ var layer_list = [
 {
 'image': fondo,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Fondo.png',
-'z_index': -4,
+'z_index': -3,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
@@ -39,7 +39,7 @@ var layer_list = [
 {
 'image': nubes_verdes,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Nubes_verdes.png',
-'z_index': -3.5,
+'z_index': -2.6,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
@@ -47,7 +47,7 @@ var layer_list = [
 {
 'image': nubes_sombra,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Nubes_sombra.png',
-'z_index': -3,
+'z_index': -2.4,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
@@ -55,7 +55,7 @@ var layer_list = [
 {
 'image': nubes,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Nubes.png',
-'z_index': -2.5,
+'z_index': -2.2,
 'position': {x: 0, y: 0},
 'blend': 'null',
 'opacity': 1
