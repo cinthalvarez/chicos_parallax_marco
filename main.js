@@ -13,71 +13,72 @@ var load_counter = 0;
 
 // Lista de imágenes para las capas
 var fondo = new Image();
-var florfondo = new Image();
-var florarriba = new Image();
-var sombrachica = new Image();
-var chica = new Image();
-var sombraflorabajo = new Image();
-var florabajo = new Image();
-var sombrabotella = new Image();
-var botella = new Image();
-var brillos = new Image();
-var brillos2 = new Image();
+var nubes_verdes = new Image();
+var nubes_sombra = new Image();
+var nubes = new Image();
+var hojas_arriba_sombra = new Image();
+var hojas_arriba = new Image();
+var luna = new Image();
+var personajes = new Image();
+var marco = new Image();
+var hojas_abajo_sombra = new Image();
+var hojas_abajo = new Image();
+var estrellas = new Image();
 var firma = new Image();
 
 // Lista de capas
 var layer_list = [
 {
 'image': fondo,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/fondo.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Fondo.png',
 'z_index': -3,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 },
 {
-'image': florfondo,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/florfondo.png',
+'image': nubes_verdes,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Nubes_verdes.png',
 'z_index': -2.5,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 },
 {
-'image': florarriba,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/florarriba.png',
+'image': nubes_sombra,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Nubes_sombra.png',
 'z_index': -2,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 },
 {
-'image': sombrachica,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/sombrachica.png',
+'image': nubes,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/nubes.png',
 'z_index': -1.5,
 'position': {x: 0, y: 0},
 'blend': 'multiply',
 'opacity': 1
 },
 {
-'image': chica,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/chica.png',
+'image': hojas_arriba_sombra,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_arriba_sombra.png',
 'z_index': -1,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 },
 {
-'image': brillos2,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/brillos2.png',
+'image': hojas_arriba,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_arriba.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 	},
 {
-'image': sombraflorabajo,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/sombraflorabajo.png',
+'image': marco,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/marco.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': 'multiply',
@@ -85,16 +86,16 @@ var layer_list = [
 },
 
 {
-'image': florabajo,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/florabajo.png',
+'image': hojas_abajo_sombra,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_abajo_sombra.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 },
 {
-'image': sombrabotella,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/sombrabotella.png',
+'image': hojas_abajo,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/hojas_abajo.png',
 'z_index': 0.5,
 'position': {x: 0, y: 0},
 'blend': 'multiply',
@@ -102,29 +103,21 @@ var layer_list = [
 },
 
 {
-'image': botella,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/botella.png',
+'image': estrellas,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/estrellas.png',
 'z_index': 1,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
 },
 {
-'image': brillos,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/brillos.png',
-'z_index': 2,
-'position': {x: 0, y: 0},
-'blend': null,
-'opacity': 1
-	},
-{
 'image': firma,
-'src': 'https://github.com/cinthalvarez/testingparallax/raw/master/images/firma.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/firma.png',
 'z_index': 2,
 'position': {x: 0, y: 0},
 'blend': null,
 'opacity': 1
-}
+	}
 ];
 
 // Repasar por la lista de capas y cargar las imágenes.
