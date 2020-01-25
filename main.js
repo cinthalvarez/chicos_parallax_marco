@@ -97,14 +97,14 @@ var layer_list = [
 {
 'image': flores,
 'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Flores.png',
-'z_index': -0.4,
+'z_index': -0.5,
 'position': {x: 0, y: 0},
 'blend': 'screen',
 'opacity': 1
 },
 {
 'image': marco,
-'src': 'https://github.com/cinthalvarez/chicos_parallax_marco/blob/master/images/Marco.png?raw=true',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Marco.png',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': 'null',
