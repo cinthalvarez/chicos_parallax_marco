@@ -104,7 +104,7 @@ var layer_list = [
 
 {
 'image': estrellas,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/estrellas.png',
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Estrellas.png',
 'z_index': 1,
 'position': {x: 0, y: 0},
 'blend': null,
