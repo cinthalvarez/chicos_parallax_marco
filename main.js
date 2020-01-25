@@ -256,7 +256,7 @@ function pointerMove(event) {
 		pointer.x = current_x - pointer_initial.x;
 		pointer.y = current_y - pointer_initial.y; 
 	}
-};
+}
 
 canvas.addEventListener('touchmove', function(event) {
 	// Don't scroll the screen
