@@ -24,6 +24,7 @@ var marco = new Image();
 var hojas_abajo_sombra = new Image();
 var hojas_abajo = new Image();
 var estrellas = new Image();
+var estrellas_1 = new Image();
 var firma = new Image();
 
 // Lista de capas
@@ -98,6 +99,15 @@ var layer_list = [
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': 'null',
+'opacity': 1
+},
+	
+{
+'image': estrellas_1,
+'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Estrellas_1.png',
+'z_index': 0.3,
+'position': {x: 0, y: 0},
+'blend': null,
 'opacity': 1
 },
 
