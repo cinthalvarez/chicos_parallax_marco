@@ -104,7 +104,7 @@ var layer_list = [
 },
 {
 'image': marco,
-'src': 'https://raw.githubusercontent.com/cinthalvarez/chicos_parallax_marco/master/images/Marco.png',
+'src': 'https://github.com/cinthalvarez/chicos_parallax_marco/blob/master/images/Marco.png?raw=true',
 'z_index': 0,
 'position': {x: 0, y: 0},
 'blend': 'null',
